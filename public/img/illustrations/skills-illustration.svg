@@ -1,0 +1,16 @@
+<svg width="520" height="420" viewBox="0 0 520 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="60" y="60" width="400" height="300" rx="24" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect x="96" y="96" width="160" height="14" rx="7" fill="#0F172A"/>
+  <rect x="96" y="124" width="240" height="10" rx="5" fill="#94A3B8"/>
+  <rect x="96" y="152" width="120" height="10" rx="5" fill="#CBD5F5"/>
+  <rect x="96" y="180" width="220" height="10" rx="5" fill="#CBD5F5"/>
+  <rect x="96" y="220" width="80" height="80" rx="16" fill="#E0F2FE"/>
+  <rect x="196" y="220" width="80" height="80" rx="16" fill="#F1F5F9"/>
+  <rect x="296" y="220" width="80" height="80" rx="16" fill="#EDE9FE"/>
+  <rect x="116" y="240" width="40" height="40" rx="10" fill="#38BDF8"/>
+  <rect x="216" y="240" width="40" height="40" rx="10" fill="#94A3B8"/>
+  <rect x="316" y="240" width="40" height="40" rx="10" fill="#A5B4FC"/>
+  <rect x="96" y="320" width="240" height="10" rx="5" fill="#CBD5F5"/>
+  <rect x="96" y="340" width="180" height="10" rx="5" fill="#CBD5F5"/>
+</svg>
+

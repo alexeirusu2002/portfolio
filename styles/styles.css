@@ -1,0 +1,105 @@
+body > div:first-child {
+  overflow-x: hidden;
+}
+
+.project-body {
+  min-height: 450px;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #1f2937;
+  background-color: #f8fafc;
+}
+
+.display-3 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.lead {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.section-header {
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+}
+
+.section-subtitle {
+  color: #6b7280;
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+}
+
+.description,
+p {
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+.hero-content {
+  max-width: 560px;
+}
+
+.hero-description {
+  max-width: 580px;
+  opacity: 0.92;
+  white-space: pre-line;
+}
+
+.hero-wrapper {
+  background: url("/img/illustrations/hero-bg.svg") center/cover no-repeat;
+}
+
+.hero-lead {
+  line-height: 1.8;
+  opacity: 0.92;
+}
+
+.hero-list {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hero-social {
+  margin-top: 1rem;
+}
+
+.hero-illustration,
+.section-illustration {
+  width: min(520px, 100%);
+  height: auto;
+  display: block;
+}
+
+.card,
+.shadow {
+  border-radius: 16px;
+}
+
+.project-body .badge {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
