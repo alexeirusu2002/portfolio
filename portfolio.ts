@@ -227,7 +227,7 @@ export const projects: ProjectType[] = [
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase my work and skills as a software developer.",
     github: "https://github.com/alexeirusu2002/portfolio",
     skills: ["Next.js", "Reactstrap", "Bootstrap", "Github"],
-    link: "https://portfolio-projects.vercel.app/",
+    link: "https://portfolio-git-main-alexei-rusus-projects.vercel.app/",
   },
 ];
 
@@ -247,7 +247,7 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: USER_NAME,
   image: "/img/photo.jpg",
-  // url: "https://portfolio-1hanzla100.vercel.app",
+  // url: "https://portfolio-git-main-alexei-rusus-projects.vercel.app/",
   keywords: [
     USER_NAME.split(" ")[0],
     USER_NAME,
