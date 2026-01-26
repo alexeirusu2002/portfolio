@@ -8,7 +8,7 @@ const Education = () => {
   return (
     educationInfo && (
       <Fade bottom duration={2000}>
-        <section className="section pb-0 bg-gradient-info my-5" id="education">
+        <section className="section bg-gradient-info my-5" id="education">
           <Container>
             <div className="d-flex px-3 section-header">
               <div>
@@ -30,7 +30,7 @@ const Education = () => {
               })}
             </Row>
           </Container>
-          <div className="separator separator-bottom separator-skew zindex-100">
+          {/* <div className="separator separator-bottom separator-skew zindex-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
@@ -41,7 +41,7 @@ const Education = () => {
             >
               <polygon className="fill-white" points="2560 0 2560 100 0 100" />
             </svg>
-          </div>
+          </div> */}
         </section>
       </Fade>
     )

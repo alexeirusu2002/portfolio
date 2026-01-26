@@ -13,7 +13,6 @@ import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
 
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
-  console.log(githubProfileData);
   return (
     <div>
       <SEO />
