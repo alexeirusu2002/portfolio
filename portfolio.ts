@@ -25,7 +25,7 @@ export const greetings: GreetingsType = {
     I am passionate about writing clean, maintainable code and delivering projects on time with precision. Whether it’s a complex web app, an ecommerce platform, or a dynamic user interface, I bring technical expertise and creative solutions to every project.
 
     -Frontend: React, Next.js, Vue.js, Angular, Material UI, Bootstrap, Tailwind CSS
-    -Backend: Node.js, Python, PHP, Firebase, Supabase
+    -Backend: Node.js, Python, PHP, Firebase, Supabase, Ruby on Rails, Laravel, Express.js, Nest.js, .NET, Django
     -Ecommerce Development: Shopify, WordPress, Squarespace
     -Version Control: Git
     -Web Development Best Practices: Responsive design, performance optimization, scalable architecture`,
@@ -50,12 +50,12 @@ export const skillsSection: SkillsSectionType = {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using React.js/Next.js"),
-        emoji("⚡ Building RESTful APIs in Node.js/Express.js REST Framework"),
+        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js, Angular, Vue.js"),
+        emoji("⚡ Building responsive static websites using React.js/Next.js, Angular, Vue.js"),
+        emoji("⚡ Building RESTful APIs in Node.js/Express.js REST Framework, Nest.js, .NET, Django, Ruby on Rails, Laravel"),
         emoji("⚡ UI development with Material UI, Shadcn, Chakra UI, AntD, and React Bootstrap."),
         emoji("⚡ Styling: Tailwind CSS, SCSS, CSS, Styled Component"),
-        emoji("⚡ Database: Mysql, MongoDB"),
+        emoji("⚡ Database: SQLite, Firebase, Supabase, MongoDB, MySQL, PostgreSQL, SQLite, Firebase, Supabase"),
         emoji("⚡ Version control with Github/GitLab/BitBucket."),
       ],
       softwareSkills: [
@@ -229,6 +229,30 @@ export const projects: ProjectType[] = [
     skills: ["Next.js", "Reactstrap", "Bootstrap", "Github"],
     link: "https://portfolio-git-main-alexei-rusus-projects.vercel.app/",
   },
+  {
+    name: "React & Supabase E-commerce Data Platform",
+    desc: "Developed a React-based e-commerce platform backed by Supabase (PostgreSQL, Auth, Storage). Implemented Excel product imports and automated product scraping from external web shops using backend services. Built AI-powered enrichment pipelines to normalize and enhance product titles, descriptions, attributes, and metadata. Stored enriched data in a structured product catalog and enabled export/sync to multiple external e-commerce platforms via APIs.",
+    skills: ["React", "Supabase", "Web Scraping", "Python", "Ecommerce"],
+    link: "https://hubby-ten.vercel.app/",
+  },
+  {
+    name: "Squarespace Site Improvement & Maintenance",
+    desc: "Improved and maintained an existing Squarespace website by fixing styling issues, enhancing layouts, adding new pages, and refining visual effects. Ensured consistent design, better responsiveness, and smooth ongoing updates without disrupting live content.",
+    skills: ["Squarespace", "CSS", "JavaScript", "Front-End Development"],
+    link: "https://www.doseffectaesthetics.com",
+  },
+  {
+    name: "React.js Frontend Development",
+    desc: " I collaborated closely with designers to translate Figma mockups into interactive, responsive interfaces using Tailwind CSS and Radix UI. I focused on accessibility (WCAG guidelines) and ensured intuitive navigation through consistent components and layout patterns. For example, I created modular and reusable card components for displaying course content, which improved both usability and code maintainability.",
+    skills: ["React", "Node.js", "Typescript", "Material-UI", "SCSS"],
+    link: "https://www.kabirsprep.com/",
+  },
+  {
+    name: "React & Node.js Admin Dashboard",
+    desc: "I used Next.js for both server-side rendering (SSR) and static site generation (SSG) to improve SEO and page load times. One challenge I faced was balancing SSR with dynamic user data that required client-side hydration. I overcame this by selectively using getServerSideProps for public pages and SWR (Stale-While-Revalidate) for client-side data fetching, ensuring a smooth user experience without sacrificing SEO.",
+    skills: ["Next.js", "Node.js", "Express.js", "Typescript", "Material-UI", "SCSS"],
+    link: "https://www.pricd.co.uk",
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
@@ -238,6 +262,13 @@ export const feedbacks: FeedbackType[] = [
     date: "Sep 2021 - Sep 2025",
     feedback:
       "Led delivery of large-scale web applications with React, Next.js, and Node.js. Built performant UI systems, designed APIs, and shipped features end-to-end while collaborating with cross-functional teams.",
+  },
+  {
+    name: "Emmanuel Orji",
+    role: "FullStack Developer Needed for React.js & Supabase Application Cleanup and Feature Enhancements",
+    date: "Jan 27, 2026 - Feb 3, 2026",
+    feedback:
+      "Very professional and responsive. Completed the work as requested. Highly recommended.",
   },
 ];
 
